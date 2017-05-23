@@ -1,6 +1,12 @@
 default_cells
 =========
 
+place inside the nbextensions folder
+enable via:
+
+`$> jupyter nbextension enable default_cells/main --sys-prefix`
+
+
 Add default cells to each new notebook. You have to modify this line in the main.js file to change your default cell. For example
 
 `Jupyter.notebook.insert_cell_above('code', 0).set_text("import numpy as np/nimportpandas as pd")`
